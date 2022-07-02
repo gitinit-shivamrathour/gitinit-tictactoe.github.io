@@ -1,4 +1,4 @@
-# Tic-tac-toe UI game:partying_face:
+# Tic-tac-toe UI game: partying_face:
 
 A Tic-tac-toe game With coolest UI using Pure Html, Css & Javascript. 
 
