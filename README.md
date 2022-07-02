@@ -1,4 +1,4 @@
-# Tic-tac-toe ui game:partying_face:
+# Tic-tac-toe UI game:partying_face:
 
 A Tic-tac-toe game With coolest UI using Pure Html, Css & Javascript. 
 
@@ -25,3 +25,4 @@ email: shivampublic2001@gmail.com
 This project is licensed under the Indian IT Act-2021, All Rights Reserved@Shivam.abc
 
 ## direct-link
+https://gitinit-shivamrathour.github.io/gitinit-tictactoe.github.io/
