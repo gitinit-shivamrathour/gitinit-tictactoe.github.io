@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic tac toe - JavaScript</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container" id="container">
+        <canvas id="cvs" width="450" height="450"></canvas>
+        <div class="options" id="options">
+            <h1>Tic Tac Toe</h1>
+
+            <h2>Versus</h2>
+            <div class="computer" id="computer">COMPUTER</div>
+            <div class="friend" id="friend">FRIEND</div>
+
+            <h2>Symbol</h2>
+            <div class="x" id="x">X</div>
+            <div class="o" id="o">O</div>
+
+            <div class="play" id="play">PLAY</div>
+        </div>
+        <div class="gameover hide" id="gameover"></div>
+    </div>
+
+    <div id="game-messages">
+        <div class="container2">
+            <aside class="nfo" id="nfo">
+                <h2>Score Card :</h2>
+                <div id="score">
+                    <span>Player X: <span id="player-one-score" value="0" name="player-one">0</span> </span>
+                    <span>Player O: <span id="player-two-score" value="0" name="player-two">0</span> </span>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <div class="first" id="first">
+        <div class="next" id="next">
+            <div class="score">
+                <h2>Previous Score</h2>
+                <div class="gm">Player X: <br><span id="player-one-score" value="0" name="player-one">0</span> </div>
+                <div class="gm">Player O: <br><span id="player-two-score" value="0" name="player-two">0</span> </div>
+
+                <button type="button" class="next-btn" id="next-btn">Next</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="options.js"></script>
+    <script src="game.js"></script>
+    <script src="score.js"></script>
+</body>
+
+</html>
