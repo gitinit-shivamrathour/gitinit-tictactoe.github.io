@@ -185,13 +185,15 @@
 }
 
 .next{
-    display: block;
+    display: flex;
+    align-items:center;
+    justify-content:center;
     box-sizing: border-box;
     align-items: center;
     text-align: center;
     width: 450px;
     height: 260px;
-    margin: 100px auto;
+    margin: 16px auto;
     position: relative;
     border: 2px solid rgb(6, 0, 72);
     box-sizing: border-box;
